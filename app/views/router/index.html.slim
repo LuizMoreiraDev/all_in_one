@@ -1,1 +1,8 @@
-| Test
+- if administrator_signed_in?
+  = link_to 'sair', destroy_administrator_session_path, data: { turbo_method: :delete }
+  p
+    | Email:&nbsp;
+    = current_administrator.email
+
+- else
+  = link_to 'login', new_administrator_session_path

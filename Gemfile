@@ -8,6 +8,7 @@ gem "rails",   "~> 7.1.3", ">= 7.1.3.2"
 # gem "redis",   ">= 4.0.1"
 gem "sqlite3", "~> 1.7", force_ruby_platform: true
 
+gem "devise", "~> 4.9"
 # gem "bcrypt", "~> 3.1.7"
 
 gem "bootsnap", require: false
